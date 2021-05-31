@@ -59,7 +59,7 @@ module.exports = {
       type: 'github',
     },
     search: {
-      enabled: true,
+      enabled: false,
       indexName: 'docs',
       algoliaAppId: null,
       algoliaSearchKey: null,

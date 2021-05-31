@@ -1,6 +1,6 @@
 ---
 metadata:
-  name: BooGi
+  name: boown
   short_name: BooGi
   description: BooGi - awesome GitBook-like documentation generator using Gatsby
   language: en
@@ -73,7 +73,7 @@ features:
     enabled: true  
     default: false
   editOnRepo:
-    location: https://github.com/filipowm/boogi 
+    location: https://github.com/duodecanol/duodecanol-blog-deva
     type: github
     editable: true
   mermaid:
