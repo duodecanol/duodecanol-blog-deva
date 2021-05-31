@@ -21,7 +21,7 @@ border-radius: 4px;
 
 const Text = styled.p`
 margin-top: 15px;
-& > p:first-child {
+& > p:first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */ {
     margin-top: 0;
 }
 & > p:last-child {

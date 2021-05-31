@@ -101,7 +101,7 @@ export const table = (theme) => css`
     tr {
       font-weight: bold;
       text-align: left;
-      th:first-child {
+      th:first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */ {
         border-top-left-radius: 4px;
       }
       th:last-child {
@@ -129,7 +129,7 @@ export const table = (theme) => css`
     }
 
     &:last-child {
-      td:first-child {
+      td:first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */ {
         border-bottom-left-radius: 4px;
       }
       td:last-child {
@@ -147,8 +147,8 @@ export const table = (theme) => css`
     background-color: ${theme.table.rowHover};
   }
 
-  th :first-child,
-  td :first-child {
+  th :first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */,
+  td :first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */ {
     margin-top: 0;
   }
 
@@ -178,7 +178,7 @@ export const scrollbar = css`
 `;
 
 export const skipParagraph = css`
-  &:first-child {
+  &:first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */ {
     margin-top: 0;
   }
   &:last-child {
@@ -191,7 +191,7 @@ export const list = css`
     p {
       margin: 8px 0;
     }
-    p:first-child {
+    p:first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */ {
       margin-top: 0;
     }
     p:last-child {

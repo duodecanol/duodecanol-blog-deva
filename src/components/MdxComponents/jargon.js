@@ -36,7 +36,7 @@ const JargonWrapper = styled.em`
         max-width: 400px;
         z-index: 1;
         box-shadow: 0 0 4px 2px ${(props) => props.theme.jargon.shadow};
-        span:first-child {
+        span:first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */ {
           width: 100%;
           padding-bottom: 10px;
           display: inline-block;
