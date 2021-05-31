@@ -1,10 +1,10 @@
 ---
 metadata:
-  name: boown
+  name: 활이네
   short_name: BooGi
   description: BooGi - awesome GitBook-like documentation generator using Gatsby
   language: en
-  pathPrefix: "/"
+  pathPrefix: "/duodecanol-blog-deva"
   siteImage:
   favicon: "/assets/favicon.png"
   themeColor: "#ff0000"
