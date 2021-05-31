@@ -4,7 +4,7 @@ metadata:
   short_name: BooGi
   description: BooGi - awesome GitBook-like documentation generator using Gatsby
   language: en
-  pathPrefix: "/duodecanol-blog-deva"
+  pathPrefix: "/duodecanol-blog-deva/content"
   siteImage:
   favicon: "/assets/favicon.png"
   themeColor: "#ff0000"
