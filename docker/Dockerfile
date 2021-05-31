@@ -29,8 +29,7 @@ RUN apt-get update \
 #     browser.launch({executablePath: 'google-chrome-stable'})
 # ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
-RUN sudo apt install libatk-bridge2.0-0
-
+RUN apt-get install -y libatk-bridge2.0-0
 
 COPY package*.json ./
 
